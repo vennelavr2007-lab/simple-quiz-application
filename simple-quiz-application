@@ -1,0 +1,38 @@
+score = 0
+print("===== QUIZ APPLICATION =====")
+
+answer = input("\n1. What is the capital of India? ")
+if answer.lower() == "delhi":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+answer = input("\n2. What is 5 + 5? ")
+if answer == "10":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+answer = input("\n3. Which planet is known as the Red Planet? ")
+if answer.lower() == "mars":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+print("\n===== RESULT =====")
+print("Score:", score, "/ 3")
+
+OUTPUT:
+===== QUIZ APPLICATION =====
+
+1. What is the capital of India? amaravathi
+Wrong!
+
+2. What is 5 + 5? 10
+Correct!
+
+3. Which planet is known as the Red Planet? mars
+Correct!
+
+===== RESULT =====
+Score: 2 / 3
